@@ -1,0 +1,100 @@
+
+body{
+    background-color: #e2e2e2;
+}
+
+#beforeHeader{
+    background-color: #363636;
+}
+#beforeHeader h1{
+    color: white;
+}
+
+/*#header{*/
+/*background-image: url("页眉图片1.jpg");*/
+/*}*/
+#header h2{
+    text-align: center;
+    color: white;
+}
+#header a:link,a:visited{
+    display: block;
+
+    text-decoration:none;
+    text-align: center;
+    font-size: 13px;
+
+    background-color: #7e7b80;
+    color: white;
+
+    width: 85px;
+    margin-left: auto;
+    margin-right: auto;
+
+    border-style: solid;
+    border-color:white;
+    border-width: 1px;
+    padding: 6px;
+}
+#header a:hover,a:active{
+    background-color: white;
+    color: black;
+}
+#headerButtons{
+    width: 51px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+
+
+
+
+
+
+ul{
+    list-style-type: none;
+    text-align: center;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    width: 90px;
+}
+
+
+
+#section{
+    background-color: white;
+
+    margin-left:auto;
+    margin-right:auto;
+    width:62%;
+}
+#sectionImg{
+    background-image: url(内容图片0.jpg);
+}
+#section span{color: #7f7f7f}
+
+
+
+
+
+#sectionImg2{
+    background-image: url(博文2的副本.jpg);
+}
+#sectionImg3{
+    background-image: url(博文3的副本.jpg);
+}
+#sectionImg4{
+    background-image: url(博文4的副本.jpg);
+}
+
+
+#footer{
+    background-color:#363636;
+}
+#footer h2{color: white}
